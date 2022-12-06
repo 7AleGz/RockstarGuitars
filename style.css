@@ -765,7 +765,8 @@ label.logo {
 .contact-head h4 {
   padding: 8px 0 30px 0;
   font-size: 25px;
-  font-family: 'Gemunu Libre', sans-serif;;
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
 }
 
 .contact-head p {
@@ -999,6 +1000,15 @@ label.logo {
   .main-images2 img {
     width: auto;
     height: auto;
+  }
+  #home-section .home-img__text {
+    display: none;
+  }
+  #guitars-section .color-price {
+    flex-direction: column;
+  }
+  #guitars-section .color-price2 {
+    flex-direction: column;
   }
   #custom-guitars-section .h3-title { 
     font-size: 1.4em;
