@@ -205,6 +205,7 @@ label.logo {
   display: block;
   font-size: 1.5em;
   margin: auto 20px;
+  text-align: center;
 }
 
 .about-img {
@@ -769,6 +770,7 @@ label.logo {
 
 .contact-head p {
   font-size: 20px;
+  text-align: center;
 }
 
 .contact-line {
@@ -802,6 +804,7 @@ label.logo {
   padding-bottom: 20px;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 /* ------------------------------------------------------------------------------ */
@@ -963,6 +966,15 @@ label.logo {
   #contact-section .copyright {
     font-size: 15px;
   }
+  #contact-section .contact-media {
+    flex-direction: column;
+  }
+  #contact-section .contact-media i {
+    padding: 10px;
+  }
+  #contact-section .contact-media a {
+    margin: 5px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -990,6 +1002,7 @@ label.logo {
   }
   #custom-guitars-section .h3-title { 
     font-size: 1.4em;
+    text-align: center;
   }
   #custom-guitars-section .h3-subtitle { 
     font-size: 1.3em;
